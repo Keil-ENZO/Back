@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#one {
+    animation: rideau 0.5s ease-in-out;
+}
+
+#two {
+    animation: rideau 0.6s ease-in-out;
+}
+
+#three {
+    animation: rideau 0.7s ease-in-out;
+}
+
+#four {
+    animation: rideau 0.8s ease-in-out;
+}
+
+#five {
+    animation: rideau 0.9s ease-in-out;
+}
+
+
+.animate {
+    transform: translateY(0);
+    transition: transform 0.8s ease-in-out;
+}
+
+.animateBg {
+    background-color: #000000;
+    width: 100%;
+    transition: background-color 0.8s ease-in-out;
+}
+
+
+
+@keyframes rideau {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translate(0)
+    }
+}
+

@@ -1,10 +1,9 @@
-
+import Header from "../layout/Header.jsx";
 
 const App = () => {
     return (
-        <div>
-            <h1 className={"text-red-500"}>Bienvenue</h1>
-
+        <div className={"bg-primary flex flex-col items-center h-[100vh]"} id={'header'}>
+            <Header />
         </div>
     );
 };
