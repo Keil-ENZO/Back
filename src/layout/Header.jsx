@@ -20,11 +20,11 @@ const Header = () => {
 
     return (
         <div className={"flex"}>
-            <h1 className={"text-title font-bold overflow-hidden"}><span className={'inline-block'} id={'one'}>W</span></h1>
-            <h1 className={`text-title font-bold translate-y-[100%] overflow-hidden`} id={'letter1'} onAnimationEnd={animate}><span className={'inline-block'} id={'four'}>e</span></h1>
-            <h1 className={"text-title font-bold overflow-hidden"}><span className={'inline-block'} id={'two'}>bD</span></h1>
-            <h1 className={"text-title font-bold translate-y-[100%] overflow-hidden"} id={'letter2'} onAnimationEnd={animate}><span className={'inline-block'} id={'five'}>e</span></h1>
-            <h1 className={"text-title font-bold overflow-hidden"}><span className={'inline-block'} id={'three'}>v</span></h1>
+            <h1 className={"text-title font-bigTitle font-bold overflow-hidden"}><span className={'inline-block'} id={'one'}>W</span></h1>
+            <h1 className={`text-title font-bigTitle font-bold translate-y-[100%] overflow-hidden`} id={'letter1'} onAnimationEnd={animate}><span className={'inline-block'} id={'four'}>e</span></h1>
+            <h1 className={"text-title font-bigTitle font-bold overflow-hidden"}><span className={'inline-block'} id={'two'}>bD</span></h1>
+            <h1 className={"text-title font-bigTitle font-bold translate-y-[100%] overflow-hidden"} id={'letter2'} onAnimationEnd={animate}><span className={'inline-block'} id={'five'}>e</span></h1>
+            <h1 className={"text-title font-bigTitle font-bold overflow-hidden"}><span className={'inline-block'} id={'three'}>v</span></h1>
 
 
         </div>

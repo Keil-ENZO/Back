@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         text: ['"Bebas Neue"', 'sans-serif'],
         title: ['"Nunito"', 'sans-serif'],
+        bigTitle: ['"Bespoke Stencil"', 'sans-serif'],
       },
       colors: {
         primary: '#007BFF',
